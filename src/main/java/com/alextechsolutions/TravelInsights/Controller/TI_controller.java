@@ -11,4 +11,9 @@ public class TI_controller {
     public RedirectView getContactPage() {
         return new RedirectView("/html/contact.html");
     }
+
+    @GetMapping("/home")
+    public RedirectView getHomePage(){
+        return new RedirectView("/html/homePage.html");
+    }
 }
