@@ -9,7 +9,11 @@
 .header{
     min-height: 100vh;
     width: 100%;
-    background: linear-gradient(#FFFF66,#FF9900);
+    background-image: url('../homePage_assets/assets/background2.jpg'); 
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-attachment: fixed;
 }
 nav{
     display: flex;
@@ -77,8 +81,9 @@ nav img{
     cursor: pointer;
 }
 .hero-btn:hover{
-    border: 1px solid orangered;
-    background: orangered;
+    
+    border: 1px solid #ffcccc;
+    background: #ffcccc;
     transition: 1s;
 }
 
@@ -117,9 +122,13 @@ nav .fa{
 }
 
 /*---------  package  --------*/
-
+.package{
+    min-height: 100vh;
+    width: 100%;
+}
 .title{
-    text-align: center; 
+    text-align: center;
+    
 }
 .title h2{
     font-size: 30px;
@@ -133,6 +142,8 @@ nav .fa{
     grid-gap: 2rem;
     align-items: center;
     margin-top: 3rem;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 .thum{
     position: relative;
